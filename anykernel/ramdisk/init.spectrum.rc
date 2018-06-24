@@ -49,7 +49,7 @@ on property:persist.spectrum.profile=1 && property:init.svc.qcom-post-boot=stopp
     # GPU
     write /sys/class/kgsl/kgsl-3d0/devfreq/governor "msm-adreno-tz"
     write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq "320000000"
-    write /sys/class/kgsl/kgsl-3d0/max_gpuclk "650000000"
+    write /sys/class/kgsl/kgsl-3d0/max_gpuclk "750000000"
 
 # Battery
 on property:persist.spectrum.profile=2 && property:init.svc.qcom-post-boot=stopped
@@ -89,4 +89,4 @@ on property:persist.spectrum.profile=3 && property:init.svc.qcom-post-boot=stopp
     # GPU
     write /sys/class/kgsl/kgsl-3d0/devfreq/governor "msm-adreno-tz"
     write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq "320000000"
-    write /sys/class/kgsl/kgsl-3d0/max_gpuclk "650000000"
+    write /sys/class/kgsl/kgsl-3d0/max_gpuclk "750000000"
